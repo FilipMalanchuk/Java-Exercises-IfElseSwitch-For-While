@@ -1,0 +1,69 @@
+import java.util.Scanner;
+import IfElseSwitch.*;
+public class IfElseSwitch_For_While {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Введите номер задания");
+		System.out.println("If Else Switch 1-20");
+		Scanner scanner = new Scanner(System.in);
+		int exToCheck = scanner.nextInt();
+		
+		switch (exToCheck) {	
+		
+		case 1:IfElseSwitch_ExN1.ExN1();
+		break;
+		case 2:IfElseSwitch_ExN2.ExN2();
+		break;
+		case 3:IfElseSwitch_ExN3.ExN3();
+		break;
+		case 4:IfElseSwitch_ExN4.ExN4();
+		break;
+		case 5:IfElseSwitch_ExN5.ExN5();
+		break;
+		case 6:IfElseSwitch_ExN6.ExN6();
+		break;
+		case 7:IfElseSwitch_ExN7.ExN7();
+		break;
+		case 8:IfElseSwitch_ExN8.ExN8();
+		break;
+		case 9:IfElseSwitch_ExN9.ExN9();
+		break;
+		case 10:IfElseSwitch_ExN10.ExN10();
+		break;
+		case 11:IfElseSwitch_ExN11.ExN11();
+		break;
+		case 12:IfElseSwitch_ExN12.ExN12();
+		break;
+		case 13:IfElseSwitch_ExN13.ExN13();
+		break;
+		case 14:IfElseSwitch_ExN14.ExN14();
+		break;
+		case 15:IfElseSwitch_ExN15.ExN15();
+		break;
+		case 16:IfElseSwitch_ExN16.ExN16();
+		break;
+		case 17:IfElseSwitch_ExN17.ExN17();
+		break;
+		case 18:IfElseSwitch_ExN18.ExN18();
+		break;
+		case 19:IfElseSwitch_ExN19.ExN19();
+		break;
+		case 20:IfElseSwitch_ExN20.ExN20();
+		break;
+		
+		
+		
+		
+		default: System.out.println("Нету такого задания");
+		break;
+		}
+		
+		
+		scanner.close();
+		System.out.println("Программа отработала");
+
+	}
+
+}
+
