@@ -1,11 +1,16 @@
 import java.util.Scanner;
+
+import For.For_ExN1;
+import For.For_ExN2;
 import IfElseSwitch.*;
+import For.*;
 public class IfElseSwitch_For_While {
 
 	public static void main(String[] args) {
 		
 		System.out.println("Введите номер задания");
 		System.out.println("If Else Switch 1-20");
+		System.out.println("For 21 - 44");
 		Scanner scanner = new Scanner(System.in);
 		int exToCheck = scanner.nextInt();
 		
@@ -51,7 +56,31 @@ public class IfElseSwitch_For_While {
 		break;
 		case 20:IfElseSwitch_ExN20.ExN20();
 		break;
-		
+		// начало задач на for
+		case 21:For_ExN1.ExN1();
+		break;
+		case 22:For_ExN2.ExN2();
+		break;
+		case 23:For_ExN3.ExN3();
+		break;
+		case 24:For_ExN4.ExN4();
+		break;
+		case 25:For_ExN5.ExN5();
+		break;
+		case 26:For_ExN6.ExN6();
+		break;
+		case 27:For_ExN7.ExN7();
+		break;
+		case 28:For_ExN8.ExN8();
+		break;
+		case 29:For_ExN9.ExN9();
+		break;
+		case 30:For_ExN10.ExN10();
+		break;
+		case 31:For_ExN11.ExN11();
+		break;
+		case 32:For_ExN12.ExN12();
+		break;
 		
 		
 		
