@@ -81,7 +81,30 @@ public class IfElseSwitch_For_While {
 		break;
 		case 32:For_ExN12.ExN12();
 		break;
-		
+		case 33:For_ExN13.ExN13();
+		break;
+		case 34:For_ExN14.ExN14();
+		break;
+		case 35:For_ExN15.ExN15();
+		break;
+		case 36:For_ExN16.ExN16();
+		break;
+		case 37:For_ExN17.ExN17();
+		break;
+		case 38:For_ExN18.ExN18();
+		break;
+		case 39:For_ExN19.ExN19();
+		break;
+		case 40:For_ExN20.ExN20();
+		break;
+		case 41:For_ExN21.ExN21();
+		break;
+		case 42:For_ExN22.ExN22();
+		break;
+		case 43:For_ExN23.ExN23();
+		break;
+		case 44:For_ExN24.ExN24();
+		break;
 		
 		
 		default: System.out.println("Нету такого задания");
