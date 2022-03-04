@@ -4,13 +4,15 @@ import For.For_ExN1;
 import For.For_ExN2;
 import IfElseSwitch.*;
 import For.*;
+import While.*;
 public class IfElseSwitch_For_While {
 
 	public static void main(String[] args) {
 		
 		System.out.println("Введите номер задания");
 		System.out.println("If Else Switch 1-20");
-		System.out.println("For 21 - 44");
+		System.out.println("For 21-44");
+		System.out.println("While 51-76");
 		Scanner scanner = new Scanner(System.in);
 		int exToCheck = scanner.nextInt();
 		
@@ -105,7 +107,27 @@ public class IfElseSwitch_For_While {
 		break;
 		case 44:For_ExN24.ExN24();
 		break;
-		
+		// задачи на while
+		case 51:While_ExN1.ExN1();
+		break;
+		case 52:While_ExN2.ExN2();
+		break;
+		case 53:While_ExN3.ExN3();
+		break;
+		case 54:While_ExN4.ExN4();
+		break;
+		case 55:While_ExN5.ExN5();
+		break;
+		case 56:While_ExN6.ExN6();
+		break;
+		case 57:While_ExN7.ExN7();
+		break;
+		case 58:While_ExN8.ExN8();
+		break;
+		case 59:While_ExN9.ExN9();
+		break;
+		case 60:While_ExN10.ExN10();
+		break;
 		
 		default: System.out.println("Нету такого задания");
 		break;
